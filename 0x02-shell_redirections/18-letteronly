@@ -1,2 +1,3 @@
 #!/bin/bash
-grep -ei [[:alpha:]]*
+grep -ei [[:alpha:]]* /etc/ssh/sshd_config
+
