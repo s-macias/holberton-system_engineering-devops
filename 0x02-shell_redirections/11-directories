@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -laRF ./* | grep / | wc -l
+ls -lRF | grep ^d | wc -l
