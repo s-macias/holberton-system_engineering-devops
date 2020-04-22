@@ -17,3 +17,4 @@
 16-clean_emacs deletes all files in the current working directory that end with the character ~.
 17-tree creates the directories welcome/, welcome/to/ and welcome/to/holberton in the current directory.
 18-commas  lists all the files and directories of the current directory, separated by commas (,).
+holberton.mgc - magic file used with the command file to detect Holberton data files. Holberton data files always contain the string HOLBERTON at offset 0.
