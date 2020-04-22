@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -alr | find -empty
+ls -laR | find -empty | rev | cut -d / -f 1 | rev
