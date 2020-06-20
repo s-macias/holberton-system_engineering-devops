@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Bash script that displays the current directory in a list
+list=$(ls)
+for file in $list
+do
+    echo $file | cut -d '-' -f2
+done
