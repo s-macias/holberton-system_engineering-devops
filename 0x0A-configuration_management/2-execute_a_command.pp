@@ -1,5 +1,5 @@
 # Creates a manifest that kills a process
 exec { 'kill killmenow':
-  path    => './killmenow',
-  command => 'kill killmenow',
+  path    => './usr/bin',
+  command => 'pkill killmenow',
 }
