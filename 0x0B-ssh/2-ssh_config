@@ -2,5 +2,5 @@
 # SSH configuration file for the SSH local client
 # so that you can connect to a server without typing a password
 Host *
-     IdentifyFile ~/.ssh/holberton
+     IdentityFile ~/.ssh/holberton
      PasswordAuthentication no
