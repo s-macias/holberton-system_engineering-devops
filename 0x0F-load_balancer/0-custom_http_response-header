@@ -2,5 +2,5 @@
 # add header to websites
 sudo apt-get -y update
 sudo apt-get -y install nginx
-sudo sed -i "\t 19i add_header X-Served-By \$hostname always;" /etc/nginx/sites-available/default
+sudo sed -i "\t 19i add_header X-Served-By: \$HOSTNAME always;" /etc/nginx/sites-available/default
 sudo service nginx restart
