@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# run as nginx user
+sudo su - nginx
