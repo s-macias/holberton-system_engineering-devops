@@ -18,8 +18,9 @@ def top_ten(subreddit):
     }
     try:
         top = requests.get(
-            url, headers=header, allow_redirects=False).json().get('data').get('children')
+            url, headers=header, allow_redirects=False).json().get('data').get(
+            'children')
         for item in range(10):
             print(top[item].get('data').get('title'))
     except:
-        print ("None")
+        print("None")
